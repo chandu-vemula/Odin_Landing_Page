@@ -1,0 +1,97 @@
+body{
+margin: 0px;
+font-family: sans-serif; 
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #F9FAF8;
+  padding-top: 20px;
+}
+
+.right-section{
+  display: flex;
+  gap: 20px;
+  margin-right: 100px;
+}
+
+.info-card{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-top: 50px;
+  
+}
+
+.description, .cover-photo{
+  flex: 1;
+ 
+}
+.david-cover-photo,.description{
+  width: 500px;
+
+}
+
+.container{
+  padding-left: 100px;
+  background-color: #1F2937;
+  padding-bottom: 100px;
+  
+}
+
+.name{
+  margin-top: 0px;
+  font-size: 48px;
+  color: #F9FAF8;
+ 
+}
+
+.david-cover-photo{
+  object-fit: cover;
+ 
+}
+.para{
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+button{
+  background-color: #3882F6;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 15px;
+  color:#F9FAF8;
+  font-size: 18px;;
+}
+button:hover{
+  opacity: 0.6;
+}
+
+button:active{
+  opacity: 0.4;
+}
+
+h3:hover{
+  opacity: 0.5;
+}
+
+.facts-boxs{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.facts-image{
+  width: 100px;
+  height: 120px;
+}
+
+.sub-text{
+  width: 100px;
+}
+
+.facts-heading{
+  text-align: center;
+}
