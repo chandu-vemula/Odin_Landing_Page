@@ -90,6 +90,8 @@ h3:hover{
   display: flex;
   justify-content: center;
   gap: 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .facts-image{
@@ -104,3 +106,64 @@ h3:hover{
 .facts-heading{
   text-align: center;
 }
+
+.facts-container{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.quote-container{
+ background-color: #E5E7EB;
+}
+.quote-box{
+ margin: auto;
+ width: 50%;
+ padding-top: 40px;
+ padding-bottom: 40px;;
+}
+
+.quote-paragraph{
+  margin: 0px;
+  color: #1F2937;
+  font: 36px light;
+  font-style: italic;
+}
+.quote-subtext{
+  text-align: end;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.signup-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  margin: 80px 180px 80px;
+}
+
+.text-subtext{
+  margin-top: 2px;
+  color: white;
+}
+.text-title{
+  margin-bottom: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.content-box{
+  padding: 20px 50px;
+}
+
+footer{
+  height: 80px;
+  background-color: #1F2937;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
