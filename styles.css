@@ -96,12 +96,13 @@ h3:hover{
 }
 
 .facts-image{
-  width: 100px;
-  height: 120px;
+  width: 150px;
+  height: 180px;
 }
 
 .sub-text{
-  width: 100px;
+  width: 150px;
+  font-size: 12px;
 }
 
 .facts-heading{
@@ -176,4 +177,21 @@ footer{
   padding-top: 30px;
   font-size: 15px;;
 }
+span{
+  color: rgb(213, 14, 14);
+  font-size: 17px;
+}
 
+.cover-box{
+  display: flex;
+
+}
+
+.cover-photo, .cover-text{
+   flex: 1;
+}
+
+.cover-photo{
+  width: 400px;
+  height:400px;;
+}
