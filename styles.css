@@ -1,6 +1,6 @@
 body{
 margin: 0px;
-font-family: sans-serif; 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 .icon{
   width: 40px;
@@ -64,7 +64,7 @@ font-family: sans-serif;
 .para{
   color: #E5E7EB;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .shop-button{
@@ -110,7 +110,8 @@ h3:hover{
 
 .sub-text{
   width: 150px;
-  font-size: 12px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .facts-heading{
